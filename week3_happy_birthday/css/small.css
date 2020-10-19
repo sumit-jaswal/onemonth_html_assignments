@@ -1,0 +1,58 @@
+p{
+  line-height: 1.6;
+}
+
+#header{
+display: None;
+}
+
+#main{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: peachpuff;
+}
+
+#intro img{
+  float: inherit;
+  padding: .7rem 2rem .7rem 2rem;
+}
+
+#contact img{
+  float: inherit;
+  padding: 2rem 2rem .7rem 2rem; 
+}
+
+#main p{
+  text-align: justify;
+  text-justify: inter-word;
+  padding: .7rem 1rem .7rem 1rem;
+  font-size: 1rem;
+}
+
+#contact h2{
+  margin-top: 1rem;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+
+#contact p:nth-child(2n+1){
+  padding: 0 1rem 0 1rem;
+  font-size: .8rem;
+}
+
+
+#footer{
+  background-color: lightslategray;
+  padding: .3rem 1rem .3rem 1rem;
+}
+
+#footer p{
+  font-size: .8rem;
+  text-align: center;
+}
+
+iframe{
+  padding: .7rem 1rem .7rem 1rem;
+}
+

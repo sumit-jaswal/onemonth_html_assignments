@@ -1,0 +1,109 @@
+html{
+  font-size: 100%;
+}
+
+body {
+  width: 100%;
+  background: url('../images/1.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html{
+  font-size: 100%;
+}
+
+p{
+  line-height: 1.6;
+}
+
+#header{
+  font-family: 'Lobster', cursive;
+  padding: 3rem 2rem 3rem 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: peachpuff;
+}
+
+#main{
+  box-shadow: .3rem .3rem .6rem black;
+  width: 35rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: peachpuff;
+}
+
+#spi{
+  width: 100%;
+}
+
+#intro img{
+  padding: 2rem 2rem .7rem 2rem;
+  float: left;
+}
+
+#contact img{
+  padding: .1rem 2rem .7rem 2rem;
+  float: right; 
+}
+
+#main p{
+  text-align: justify;
+  text-justify: inter-word;
+  padding: .7rem 1rem .7rem 1rem;
+  font-size: .9rem;
+}
+
+#contact h2{
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+}
+
+#contact p:nth-child(2n+1){
+  padding: 0 1rem 0 1rem;
+  font-size: .9rem;
+}
+
+#contact p:nth-child(2n){
+  font-size: .9rem;
+  font-weight: bold;
+  padding: .3rem 1rem .3rem 1rem;
+}
+
+#footer{
+  padding: .3rem 1rem .3rem 1rem;
+}
+
+#footer p{
+  color: peachpuff;
+  font-size: .8rem;
+  text-align: center;
+}
+
+#footer a{
+  color: peachpuff;
+}
+
+iframe{
+  padding: 2rem auto;
+}
+
